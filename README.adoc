@@ -1,0 +1,13 @@
+= CIS 3368 Starter Project
+
+This project is meant to be a starting point for your project.
+
+_Before the project will run_, you will need to:
+
+* Modify the POM and application.properties files with the name of your database
+* Create one or more flyway scripts
+
+
+You should use IntelliJ's refactor mechanism to change the name of your main class and the project to match your project
+
+

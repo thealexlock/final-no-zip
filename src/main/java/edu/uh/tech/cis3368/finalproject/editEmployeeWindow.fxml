@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="256.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.finalproject.editEmployeeController">
+    <children>
+        <Button fx:id="acceptButton" layoutX="119.0" layoutY="186.0" mnemonicParsing="false" onAction="#accept" text="Accept" />
+        <Button fx:id="cancelButton" layoutX="189.0" layoutY="186.0" mnemonicParsing="false" onAction="#cancel" prefHeight="27.0" prefWidth="62.0" text="Cancel" />
+        <TextField fx:id="name" layoutX="138.0" layoutY="28.0" prefHeight="27.0" prefWidth="167.0" promptText="Your Name" />
+        <Label layoutX="89.0" layoutY="33.0" text="Name:" />
+        <Label layoutX="75.0" layoutY="68.0" text="Position:" />
+        <TextField fx:id="position" layoutX="137.0" layoutY="63.0" prefHeight="27.0" prefWidth="167.0" promptText="Production Manager" />
+        <TextField fx:id="rate" layoutX="138.0" layoutY="97.0" prefHeight="27.0" prefWidth="93.0" promptText="16.75" />
+        <Label layoutX="55.0" layoutY="102.0" text="Hourly Rate:" />
+        <Label layoutX="97.0" layoutY="136.0" text="Date:" />
+        <TextField fx:id="date" layoutX="137.0" layoutY="131.0" prefHeight="27.0" prefWidth="103.0" promptText="00-00-2000" />
+    </children>
+
+</AnchorPane>

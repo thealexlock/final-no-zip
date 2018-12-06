@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="403.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.finalproject.showProjectController">
+   <children>
+      <Label layoutX="233.0" layoutY="42.0" prefHeight="21.0" prefWidth="49.0" text="Job ID:" />
+      <Label layoutX="167.0" layoutY="78.0" text="Customer's Name:" />
+      <Label layoutX="203.0" layoutY="115.0" text="Date Added:" />
+      <Label layoutX="224.0" layoutY="193.0" text="Address:" />
+      <Label layoutX="184.0" layoutY="253.0" text="Estimated Cost:" />
+      <Label layoutX="21.0" layoutY="279.0" text="Description:" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="205.0" layoutY="8.0" prefHeight="23.0" prefWidth="152.0" text="Project Information" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="15.0" />
+         </font></Label>
+      <Button fx:id="okButton" layoutX="234.0" layoutY="361.0" mnemonicParsing="false" onAction="#exit" prefHeight="31.0" prefWidth="112.0" text="OK" />
+      <Label layoutX="236.0" layoutY="146.0" text="Phone:" />
+      <TextField fx:id="nameLabel" layoutX="286.0" layoutY="73.0" prefHeight="27.0" prefWidth="152.0" />
+      <TextField fx:id="jobIDLabel" layoutX="287.0" layoutY="39.0" prefHeight="27.0" prefWidth="77.0" />
+      <TextField fx:id="dateLabel" layoutX="287.0" layoutY="109.0" prefHeight="27.0" prefWidth="112.0" />
+      <TextField fx:id="phoneLabel" layoutX="287.0" layoutY="143.0" prefHeight="27.0" prefWidth="112.0" />
+      <TextArea fx:id="addressLabel" layoutX="285.0" layoutY="177.0" prefHeight="66.0" prefWidth="228.0" />
+      <TextField fx:id="costLabel" layoutX="286.0" layoutY="248.0" prefHeight="27.0" prefWidth="112.0" />
+      <TextArea fx:id="descriptionLabel" layoutX="106.0" layoutY="279.0" prefHeight="66.0" prefWidth="407.0" />
+   </children>
+</AnchorPane>

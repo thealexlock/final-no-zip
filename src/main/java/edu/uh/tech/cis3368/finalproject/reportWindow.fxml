@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.finalproject.reportWindowController">
+   <children>
+      <Label layoutX="220.0" layoutY="38.0" text="JOB REPORT" textFill="WHITE" underline="true" />
+      <DatePicker fx:id="beginningDate" layoutX="112.0" layoutY="73.0" />
+      <DatePicker fx:id="endingDate" layoutX="114.0" layoutY="143.0" />
+      <Label layoutX="60.0" layoutY="108.0" text="Beginning Date:" textFill="WHITE" />
+      <Label layoutX="80.0" layoutY="178.0" text="Ending Date:" textFill="WHITE" />
+      <Button fx:id="requestReport" layoutX="146.0" layoutY="220.0" mnemonicParsing="false" onAction="#getReport" text="Request Report" />
+   </children>
+</AnchorPane>

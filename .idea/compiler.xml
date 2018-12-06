@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="final" />
+        <module name="starter-project" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="final" target="10" />
+      <module name="starter-project" target="10" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="--add-modules=javafx.controls,javafx.fxml,javafx.base,javafx.graphics" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="final" options="-parameters" />
+      <module name="starter-project" options="-parameters" />
+    </option>
+  </component>
+</project>

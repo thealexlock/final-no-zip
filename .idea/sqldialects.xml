@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/addToKanbanBoard.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/addtoTable.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/editEmployeeController.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/db/migration/V20181126142942__create_Projects.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/db/migration/V20181126143031__create_KanbanBoard.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/db/migration/employees.sql" dialect="PostgreSQL" />
+  </component>
+</project>

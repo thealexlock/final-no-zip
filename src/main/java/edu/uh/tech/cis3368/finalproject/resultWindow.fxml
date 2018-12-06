@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="620.0" prefWidth="501.0" style="-fx-background-color: #585858;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.finalproject.resultWindowController">
+   <children>
+      <Label layoutX="171.0" layoutY="22.0" text="REPORT RESULTS" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font></Label>
+      <Label layoutX="124.0" layoutY="491.0" text="Total Pending Projects:" textFill="WHITE" />
+      <TableView fx:id="pendingJobsTable" layoutX="14.0" layoutY="124.0" prefHeight="145.0" prefWidth="473.0">
+        <columns>
+          <TableColumn fx:id="job_id" style="-fx-alignment: CENTER;" prefWidth="75.0" text="Job ID" />
+            <TableColumn fx:id="date" style="-fx-alignment: CENTER;" prefWidth="97.0" text="Date" />
+          <TableColumn fx:id="customerName" style="-fx-alignment: CENTER;" prefWidth="169.0" text="Customer's Name" />
+            <TableColumn fx:id="cost" style="-fx-alignment: CENTER;" prefWidth="131.0" text="Cost" />
+        </columns>
+      </TableView>
+      <Label layoutX="107.0" layoutY="512.0" text="Total Completed Projects:" textFill="WHITE" />
+      <TableView fx:id="completedJobsTable" layoutX="14.0" layoutY="332.0" prefHeight="145.0" prefWidth="473.0">
+         <columns>
+            <TableColumn fx:id="job_id2" style="-fx-alignment: CENTER;" prefWidth="75.0" text="Job ID" />
+            <TableColumn fx:id="date2" style="-fx-alignment: CENTER;" prefWidth="97.0" text="Date" />
+            <TableColumn fx:id="customerName2" style="-fx-alignment: CENTER;" prefWidth="169.0" text="Customer's Name" />
+            <TableColumn fx:id="cost2" style="-fx-alignment: CENTER;" prefWidth="131.0" text="Cost" />
+         </columns>
+      </TableView>
+      <Label layoutX="185.0" layoutY="533.0" text="Profitability:" textFill="WHITE" />
+      <Label fx:id="profitLabel" layoutX="291.0" layoutY="533.0" text="(Profit)" textFill="WHITE" />
+      <Button fx:id="okButton" layoutX="216.0" layoutY="567.0" mnemonicParsing="false" onAction="#close" prefHeight="31.0" prefWidth="90.0" text="OK" />
+      <Label fx:id="pendingJobsLabel" layoutX="292.0" layoutY="491.0" text="(Total)" textFill="WHITE" />
+      <Label fx:id="completedJobsLabel" layoutX="292.0" layoutY="512.0" text="(Total)" textFill="WHITE" />
+      <Label layoutX="210.0" layoutY="88.0" text="PENDING JOBS" textFill="WHITE" underline="true" />
+      <Label layoutX="206.0" layoutY="300.0" text="COMPLETED JOBS" textFill="WHITE" underline="true" />
+      <Label fx:id="summaryLabel" alignment="CENTER" layoutX="14.0" layoutY="59.0" prefHeight="21.0" prefWidth="473.0" text="***QUERY RESULTS FROM (START) TO (FINISH)***" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>
